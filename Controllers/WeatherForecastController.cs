@@ -22,7 +22,7 @@ namespace PayApp.Controllers
         {
             _logger = logger;
         }
-
+        //default method for controller get if no route specified
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
